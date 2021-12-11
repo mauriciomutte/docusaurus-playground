@@ -24,8 +24,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          editUrl: "https://github.com/facebook/docusaurus/edit/main/website/",
+          editUrl: "https://github.com/mauriciomutte/docusaurus-playground/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -38,9 +37,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "My Site",
+        title: "Docusaurus Playground",
         logo: {
-          alt: "My Site Logo",
+          alt: "Docusaurus Playground Logo",
           src: "img/logo.svg",
         },
         items: [
@@ -48,10 +47,10 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Tutorial",
+            label: "Docs",
           },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/mauriciomutte/docusaurus-playground",
             label: "GitHub",
             position: "right",
           },
@@ -70,19 +69,19 @@ const config = {
             ],
           },
           {
-            title: "Community",
+            title: "Social",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "Blog",
+                href: "https://mauriciomutte.dev/",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                label: "Github",
+                href: "https://github.com/mauriciomutte",
               },
               {
                 label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                href: "https://twitter.com/mauriciomutte",
               },
             ],
           },
@@ -91,7 +90,7 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/mauriciomutte/docusaurus-playground",
               },
             ],
           },
