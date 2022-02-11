@@ -32,4 +32,12 @@ module.exports = {
       items: ["business/project-1", "business/project-2"],
     },
   ],
+  guides: [
+    "intro",
+    {
+      type: "category",
+      label: "Guides",
+      items: ["guides/intro", "guides/how-to/create-new-doc"],
+    },
+  ],
 };

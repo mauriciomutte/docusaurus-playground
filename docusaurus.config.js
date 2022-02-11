@@ -47,7 +47,13 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Docs",
+            label: "Tutorials",
+          },
+          {
+            type: "doc",
+            docId: "guides/intro",
+            position: "left",
+            label: "Guides",
           },
           {
             href: "https://github.com/mauriciomutte/docusaurus-playground",
