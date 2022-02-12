@@ -7,11 +7,11 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 
 const config = {
-  title: "Docusaurus Playground",
+  title: "Ionic Documentation",
   tagline: "Dinosaurs are cool",
   url: "https://mauriciomutte.dev",
-  baseUrl: "/",
-  onBrokenLinks: "throw",
+  baseUrl: `/`,
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "mauriciomutte", // Usually your GitHub org/user name.
@@ -36,24 +36,37 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: "light",
+      },
       navbar: {
+        hideOnScroll: true,
         title: "Docusaurus Playground",
         logo: {
           alt: "Docusaurus Playground Logo",
           src: "img/logo.svg",
+          href: "/docs",
+          target: "_self",
         },
         items: [
           {
-            type: "doc",
-            docId: "intro",
+            label: "Outros links",
             position: "left",
-            label: "Tutorials",
-          },
-
-          {
-            href: "https://github.com/mauriciomutte/docusaurus-playground",
-            label: "GitHub",
-            position: "right",
+            items: [
+              {
+                href: "https://github.com/",
+                label: "Github",
+                target: "_blank",
+                rel: null,
+              },
+              {
+                href: "https://github.com/",
+                label: "Guideline",
+                target: "_blank",
+                rel: null,
+              },
+            ],
+            className: "navbar__link--community",
           },
         ],
       },

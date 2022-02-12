@@ -4,11 +4,30 @@
 
 module.exports = {
   docs: [
-    "intro",
+    "index",
     {
       type: "category",
-      label: "Technologies",
-      items: [],
+      label: "Guias",
+      collapsed: true,
+      items: ["guides/index"],
+    },
+    {
+      type: "category",
+      label: "Tutoriais",
+      collapsed: true,
+      items: ["tutorials/index"],
+    },
+    {
+      type: "category",
+      label: "Explicações",
+      collapsed: true,
+      items: ["explanations/index"],
+    },
+    {
+      type: "category",
+      label: "Referências",
+      collapsed: true,
+      items: ["references/index"],
     },
   ],
 };
