@@ -76,8 +76,20 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
-                to: "/docs/intro",
+                label: "Guias",
+                to: "/docs/guides/",
+              },
+              {
+                label: "Tutoriais",
+                to: "/docs/tutoriais/",
+              },
+              {
+                label: "Explicações",
+                to: "/docs/explanations/",
+              },
+              {
+                label: "Referências",
+                to: "/docs/references/",
               },
             ],
           },
@@ -103,6 +115,10 @@ const config = {
             items: [
               {
                 label: "GitHub",
+                href: "https://github.com/mauriciomutte/docusaurus-playground",
+              },
+              {
+                label: "Guideline",
                 href: "https://github.com/mauriciomutte/docusaurus-playground",
               },
             ],
