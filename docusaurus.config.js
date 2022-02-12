@@ -49,12 +49,7 @@ const config = {
             position: "left",
             label: "Tutorials",
           },
-          {
-            type: "doc",
-            docId: "guides/intro",
-            position: "left",
-            label: "Guides",
-          },
+
           {
             href: "https://github.com/mauriciomutte/docusaurus-playground",
             label: "GitHub",
