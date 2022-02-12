@@ -38,12 +38,12 @@ const config = {
     ({
       colorMode: {
         defaultMode: "light",
+        disableSwitch: true,
       },
       navbar: {
         hideOnScroll: true,
-        title: "Docusaurus Playground",
         logo: {
-          alt: "Docusaurus Playground Logo",
+          alt: "JSM Logo",
           src: "img/logo.svg",
           href: "/docs",
           target: "_self",
@@ -71,7 +71,6 @@ const config = {
         ],
       },
       footer: {
-        style: "dark",
         links: [
           {
             title: "Docs",
