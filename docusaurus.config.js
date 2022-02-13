@@ -84,12 +84,12 @@ const config = {
                 to: "/docs/tutoriais/",
               },
               {
-                label: "Explicações",
-                to: "/docs/explanations/",
-              },
-              {
                 label: "Referências",
                 to: "/docs/references/",
+              },
+              {
+                label: "Explicações",
+                to: "/docs/explanations/",
               },
             ],
           },

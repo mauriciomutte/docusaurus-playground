@@ -9,7 +9,7 @@ module.exports = {
       type: "category",
       label: "Primeiros passos",
       collapsed: true,
-      items: ["tutorials/index"],
+      items: ["tutorials/index", "tutorials/running", "tutorials/git-flow"],
     },
     {
       type: "category",
@@ -19,15 +19,15 @@ module.exports = {
     },
     {
       type: "category",
-      label: "Explicações",
-      collapsed: true,
-      items: ["explanations/index"],
-    },
-    {
-      type: "category",
       label: "Referências",
       collapsed: true,
       items: ["references/index"],
+    },
+    {
+      type: "category",
+      label: "Explicações",
+      collapsed: true,
+      items: ["explanations/index"],
     },
   ],
 };
