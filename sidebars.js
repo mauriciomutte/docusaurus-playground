@@ -7,15 +7,15 @@ module.exports = {
     "index",
     {
       type: "category",
-      label: "Guias",
+      label: "Primeiros passos",
       collapsed: true,
-      items: ["guides/index"],
+      items: ["tutorials/index"],
     },
     {
       type: "category",
-      label: "Tutoriais",
+      label: "Guias",
       collapsed: true,
-      items: ["tutorials/index"],
+      items: ["guides/index"],
     },
     {
       type: "category",
