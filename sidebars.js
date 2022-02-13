@@ -21,7 +21,18 @@ module.exports = {
       type: "category",
       label: "Referências",
       collapsed: true,
-      items: ["references/index"],
+      items: [
+        {
+          type: "category",
+          label: "Hooks",
+          items: ["references/hooks/useHook", "references/hooks/useMaterial"],
+        },
+        {
+          type: "category",
+          label: "Helpers",
+          items: ["references/helpers/string"],
+        },
+      ],
     },
     {
       type: "category",
